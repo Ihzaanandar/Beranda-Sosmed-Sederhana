@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Username" />
+
+    <EditText
+        android:id="@+id/etCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tulis deskripsi postingan"
+        android:inputType="textMultiLine"
+        android:minLines="2" />
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="#E0E0E0"
+        android:contentDescription="Preview Gambar"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Gambar"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSubmitPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahkan Postingan"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

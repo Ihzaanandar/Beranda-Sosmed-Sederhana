@@ -39,6 +39,3 @@ Proyek ini dibuat untuk keperluan **Posttest Pemrograman Mobile** dan bersifat a
 Dilarang memperbanyak, menyalin, atau menggunakan kode tanpa izin dari pemilik repositori.
 
 ---
-
-## 📸 Tampilan Aplikasi (Opsional)
-Kamu dapat menambahkan screenshot di sini agar README lebih informatif:
